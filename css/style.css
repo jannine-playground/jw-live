@@ -1,0 +1,21 @@
+div.ui.segment {
+/*   opacity: 0.1; */
+  padding: 5px;
+}
+
+div.ui.button {
+  opacity: none;
+
+}
+
+div > img {
+  box-shadow: 1px 1px 5px black;
+}
+
+img {
+  box-shadow: 1px 1px 5px gray;
+}
+
+html {
+       overflow-y: scroll;
+}
