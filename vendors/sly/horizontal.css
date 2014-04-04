@@ -1,0 +1,30 @@
+body { background: #e8e8e8; }
+/* .container { margin: 0 auto; } */
+
+/* Example wrapper */
+.wrap {
+/* 	position: relative; */
+ width:95%;
+}
+
+/* Frame */
+.frame {
+  padding:0px;
+	overflow: hidden;
+}
+.frame ul {
+	list-style: none;
+	height: 100px;
+}
+.frame ul li {
+  margin: 2px 5px;
+ 	float: left;
+	width: auto;
+	height: 100%;
+/* 	text-align: center; */
+	cursor: pointer;
+}
+.frame ul li.active {
+/* 	color: #fff;*/
+/* 	background: #a03232; */
+}

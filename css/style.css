@@ -1,5 +1,4 @@
 div.ui.segment {
-/*   opacity: 0.1; */
   padding: 5px;
 }
 
@@ -12,10 +11,13 @@ div > img {
   box-shadow: 1px 1px 5px black;
 }
 
-img {
-  box-shadow: 1px 1px 5px gray;
+li > img {
+  box-shadow: 1px 1px 10px black;
+  border-radius: 0.1125em;
+  height:100%;
 }
 
-html {
-       overflow-y: scroll;
+div.wrap {
+  position: fixed;
+  bottom:0;
 }

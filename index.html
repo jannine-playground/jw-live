@@ -7,27 +7,32 @@
         <script type="text/javascript" src="vendors/video.js/video.js"></script>
         <script type="text/javascript" src="vendors/BigVideo.js/lib/bigvideo.js"></script>
         <script type="text/javascript" src="vendors/angular/angular.js"></script>
+        <script type="text/javascript" src="vendors/sly/sly.js"></script>
+
+        <script type="text/javascript" src="js/component.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
 
         <link rel="stylesheet" href="vendors/BigVideo.js/css/bigvideo.css">
         <link rel="stylesheet" href="vendors/semantic/css/semantic.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="vendors/sly/horizontal.css">
         <link rel="stylesheet" href="vendors/animate.css/animate.css">
-        <link rel="stylesheet" href="vendors/StackEffects/css/component.css">
 
     </head>
 
     <body data-ng-app="AcapellaLiveShot" data-ng-controller="HomeController" ng-click="capture()">
-        <div>
-            <div class="ui">
-                <div class="ui medium rounded images" id="photos">
-                </div>
+
+        <div class="wrap">
+
+            <div class="frame" id="basic" style="overflow: hidden;">
+                <ul class="clearfix " id="photos" style="-webkit-transform: translateZ(0px) translateX(-3876px); width: 6840px;">
+                </ul>
             </div>
 
-            <div>
-                <section>
-                    <figure class="stack stack-fan active" id="photo"> </figure>
-                </section>
+            <div class="scrollbar" ng-if="false">
+                <div class="handle" style="-webkit-transform: translateZ(0px) translateX(646px); width: 190px;">
+                    <div class="mousearea"></div>
+                </div>
             </div>
 
         </div>
